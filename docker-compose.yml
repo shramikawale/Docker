@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    apache2:
+       build:
+         context: . 
+       container_name: apache2
+       ports:
+            - '80:80'
+ #       image: apache2
+ 
